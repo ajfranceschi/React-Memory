@@ -1,0 +1,14 @@
+.card {
+    width: 150px;
+    height: 150px;
+    min-width: 150px;
+    overflow: hidden;
+    border: 5px solid rgb(42, 41, 3);
+}
+
+@media only screen and (min-width: 768px) {
+    .card:hover {
+        box-shadow: rgb(42, 41, 3) 5px 5px 5px;
+        transform: scale(1.1);
+    }
+}

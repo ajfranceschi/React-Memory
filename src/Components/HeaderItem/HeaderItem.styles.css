@@ -1,0 +1,22 @@
+h5 {
+    font-size: 16px;
+    color: white;
+}
+
+@keyframes flash-green {
+    from {color: green}
+    to {color: white}
+}
+
+@keyframes flash-red {
+    from {color: red}
+    to {color: white}
+}
+
+
+
+@media only screen and (max-width: 630px) {
+    h5 {
+        font-size: 14px;
+    }
+}

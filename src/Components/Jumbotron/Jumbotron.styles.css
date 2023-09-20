@@ -1,0 +1,11 @@
+.jumbotron-fluid {
+    background: url("../../Assets/images/jumboBackground.jpg") no-repeat center bottom;
+    background-size: cover;
+    height: 300px;
+    color: white;
+}
+
+.jumbotron-fluid h1 {
+    font-size: 3em;
+    text-shadow: black 1px 1px 10px;
+}
